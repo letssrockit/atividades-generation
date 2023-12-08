@@ -27,7 +27,7 @@ public class IfelseAtt2 {
 	
 		String nome;
 		int idade;
-		boolean sim, nao;
+		boolean a;
 		
 		Scanner leia = new Scanner(System.in);
 		
@@ -40,8 +40,8 @@ public class IfelseAtt2 {
 			System.out.println("Você está apto a doar sangue");
 		}else if(idade>=60 && idade<69) {
 			System.out.println("\nEssa é sua primeira vez doando? ");
-			nao = leia.nextBoolean();{
-				if(nao) {
+			leia.nextBoolean();{
+				if(a = false) {
 					System.out.println("Você está apto a doar sangue");
 				}
 			}

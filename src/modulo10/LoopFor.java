@@ -14,17 +14,18 @@ public class LoopFor {
 		System.out.println("\nDigite um número menor ao número anterior: ");
 		num2 = leia.nextInt();
 		
-		if (num2>num1) {
+		if (num2 > num1) {
 			System.out.println("\nIntervalo inválido. O segundo número deve ser menor que o primeiro.");
 			leia.close();
-		}
+		} else {
 		
 		System.out.println("Múltiplos de 3 e 5 nesse intervalo é: ");
-		for (x = num1; x <= num2; x++) {
+		for (x = num1; x >= num2; x--) {
 			if (x%3==0&&x%5==0) {
 				System.out.println(x+" é multiplo de 3 e 5");				
-			};
-			leia.close();
+			}
 		}
+		leia.close();
 	}
+}
 }

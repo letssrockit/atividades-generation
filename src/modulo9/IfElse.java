@@ -30,7 +30,9 @@ public class IfElse {
 				}
 			}
 		}
-		
+		if(idade >18 && idade<60) {
+			System.out.println("Você está apto a doar sangue");
+		}
 
 	}
 
